@@ -1,0 +1,8 @@
+n = input("qual sua nota do 1 bimestre? \n")
+i = input("qual sua nota do 2 bimestre? \n")
+j = input("qual sua nota do 3 bimestre? \n")
+y = input("qual sua nota do 4 bimestre? \n")
+media = (n + i + j + y / 4 )
+print('>'*18)
+print(int("sua media final é \n {}".format(media)))
+print('>'*18)
